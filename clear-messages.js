@@ -6,7 +6,7 @@
 
 */
 
-const CLEAR_MESSAGES = '!clearMessages';
+const CLEAR_MESSAGES = '!clear';
 
 const Discord = require('discord.js');
 const bot = new Discord.Client();
