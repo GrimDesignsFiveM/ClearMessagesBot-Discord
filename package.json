@@ -3,14 +3,14 @@
   "version": "1.0.0",
   "description": "A simple bot to clear/delete all messages of a Discord channel",
   "engines": {
-    "node": "6.7.0"
+    "node": "12"
   },
   "main": "clear-messages.js",
   "scripts": {
     "start": "node clear-messages.js"
   },
   "dependencies": {
-    "discord.js": "9.3.x"
+    "discord.js": "^11.5.1"
   },
   "repository": {
     "type": "git",
