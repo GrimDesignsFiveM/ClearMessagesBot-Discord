@@ -16,7 +16,7 @@ const token = process.env.BOT_TOKEN;
 
 bot.on("ready", () => {
   //console.log(`Bot has started, with ${client.users.size} users, in ${client.channels.size} channels of ${client.guilds.size} guilds.`); 
- client.user.setGame(`!clear | Private Bot`, `https://www.twitch.tv/monstercat`);
+ bot.user.setGame(`!clear | Private Bot`, `https://www.twitch.tv/monstercat`);
 });
 
 bot.on('ready', () => {
