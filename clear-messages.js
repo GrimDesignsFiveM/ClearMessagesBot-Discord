@@ -14,6 +14,11 @@ const bot = new Discord.Client();
 // Token of my bot
 const token = process.env.BOT_TOKEN;
 
+bot.on("ready",  async () => {
+  //console.log(`Bot has started, with ${client.users.size} users, in ${client.channels.size} channels of ${client.guilds.size} guilds.`); 
+ client.user.setGame(`!clear | Private Bot`, `https://www.twitch.tv/monstercat`);
+});
+
 bot.on('ready', () => {
   console.log('ClearMessagesBot is Ready!');
   bot.on('message', message => {
